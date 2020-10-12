@@ -1,0 +1,16 @@
+{
+  "name": "@swept/ui",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "wangzhonghuan",
+  "license": "ISC",
+  "gitHead": "39dfbd888daabc30c72ada6cda7bd39191bd050e"
+}

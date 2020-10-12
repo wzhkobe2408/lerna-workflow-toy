@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/@swept/*"
+  ],
+  "scripts": {
+    "lerna": "./node_modules/.bin/lerna",
+    "semantic-release": "semantic-release",
+    "publish": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "semantic-release": "^17.2.0",
+    "semantic-release-monorepo": "^7.0.3"
+  },
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wzhkobe2408/lerna-workflow-playground.git"
+  }
+}

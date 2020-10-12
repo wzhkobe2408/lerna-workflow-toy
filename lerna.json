@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "packages/@swept/*"
+  ],
+  "ignoreChanges": [
+    "*.md",
+    "*.txt",
+    "test/**",
+    "**/test/**"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent"
+}
