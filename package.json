@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "lerna": "./node_modules/.bin/lerna",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --no-ci",
     "publish": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "devDependencies": {

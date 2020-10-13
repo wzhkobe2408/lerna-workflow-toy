@@ -1,3 +1,6 @@
+/**
+ * @author wangzhonghuan
+ */
 export class Logger {
     private scope: string;
     private tag: string;
