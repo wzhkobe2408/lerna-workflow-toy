@@ -12,7 +12,6 @@
   "keywords": [],
   "author": "wangzhonghuan",
   "license": "ISC",
-  "gitHead": "39dfbd888daabc30c72ada6cda7bd39191bd050e",
   "devDependencies": {
     "typescript": "^4.0.3"
   }
