@@ -10,6 +10,7 @@
     "publish": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "lerna": "^3.22.1",
     "semantic-release": "^17.2.0",
     "semantic-release-monorepo": "^7.0.3"
