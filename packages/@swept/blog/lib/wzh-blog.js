@@ -5,7 +5,7 @@ function wzhBlog() {
         ====================
 
         ```
-        console.log('code')
+        console.log('code man is so hard');
         ```
     `;
 }
